@@ -7,14 +7,19 @@ Les tailles et catégories sont également modifiables, et l'affichage de ces do
 ![alt text](https://res.cloudinary.com/dr3sekypo/image/upload/v1684244469/Screenshot_2023-05-16_153339_yqqiae.jpg)
 
 Pour faire fonctionner l'application sur le serveur local, il faut créer un fichier .env à la racine du projet et reseigner les variables suivantes:
+
 DATABASE_URL=
+
 SECRET_KEY=
+
 api_key=
+
 cloud_name=
+
 api_secret=
 
 puis dans settings.py:
-Soit configurer DEBUG = True pour activer les informations de débuggage et simuler un environnement de développement
-ou
-modifier     ALLOWED_HOSTS= 
-et commenter  SECURE_SSL_REDIRECT pour autoriser les connections http.
+
+Soit configurer DEBUG = True pour activer les informations de débuggage et simuler un environnement de développement 
+
+ou modifier  ALLOWED_HOSTS= et commenter  SECURE_SSL_REDIRECT pour autoriser les connections http.
